@@ -39,6 +39,35 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  transition: all 5s;
+}
+.instabtn:hover {
+  /* background: rgb(249, 206, 52); */
+  background: linear-gradient(
+    180deg,
+    rgb(249, 170, 52) 19%,
+    rgba(238, 42, 123, 1) 55%,
+    rgba(98, 40, 215, 1) 100%
+  );
+}
+
+.linkedinbtn:hover {
+  /* background: rgb(249, 206, 52); */
+  background: linear-gradient(
+    180deg,
+    rgb(126, 131, 233) 19%,
+    rgb(42, 78, 238) 55%,
+    rgb(15, 11, 129) 100%
+  );
+}
+.gmailbtn:hover {
+  /* background: rgb(249, 206, 52); */
+  background: linear-gradient(
+    180deg,
+    rgb(201, 59, 59) 19%,
+    rgb(232, 59, 59) 55%,
+    rgb(237, 0, 0) 100%
+  );
 }
 .contact-img {
   flex: 50%;

@@ -33,16 +33,26 @@ const Navbar = () => {
         <a href="#project" className="nav2-text" onClick={click}>
           Projects
         </a>
-        <a className="nav2-text" onClick={click}>
+        <a className="nav2-text" href="#contact" onClick={click}>
           Contact
         </a>
         <a className="nav2-text" onClick={click}>
           Resume
         </a>
-        <a className="nav2-text" onClick={click}>
+        <a
+          className="nav2-text"
+          href="https://www.linkedin.com/in/jainharsh0907/"
+          target="_blank"
+          onClick={click}
+        >
           <FaLinkedin />
         </a>
-        <a className="nav2-text" onClick={click}>
+        <a
+          href="https://github.com/harshj2109"
+          target="_blank"
+          className="nav2-text"
+          onClick={click}
+        >
           <FaGithub />
         </a>
       </div>

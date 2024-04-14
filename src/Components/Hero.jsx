@@ -269,7 +269,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="contact-container">
+      <div className="contact-container" id="contact">
         <div className="contact-heading">Contact Me</div>
 
         <div className="contact-box">
@@ -280,7 +280,7 @@ const Hero = () => {
                 href="https://www.linkedin.com/in/jainharsh0907/"
                 target="_blank"
               >
-                <button className="contact-btn">
+                <button className="contact-btn linkedinbtn">
                   {" "}
                   <FaLinkedin />
                   Contact me on linkedin
@@ -288,13 +288,13 @@ const Hero = () => {
               </a>
 
               <a href="mailto:jainharsh2109@gmail.com" target="_blank">
-                <button className="contact-btn">
+                <button className="contact-btn gmailbtn">
                   <BiLogoGmail />
                   Mail me
                 </button>
               </a>
               <a href="https://www.instagram.com/harshh._j/" target="_blank">
-                <button className="contact-btn">
+                <button className="contact-btn instabtn">
                   <FaInstagram />
                   Contact me on Instagram
                 </button>
