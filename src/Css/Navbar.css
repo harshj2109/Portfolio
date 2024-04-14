@@ -1,0 +1,59 @@
+.main-navbar {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  justify-content: space-between;
+  padding: 20px 30px;
+
+  font-size: 20px;
+
+  align-items: center;
+
+  position: relative;
+}
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* gap: 30px; */
+}
+.nav2-text {
+  margin-left: 20px;
+}
+.ham-nav {
+  display: none;
+}
+.hamburger {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .ham-nav {
+    display: block;
+  }
+  .nav2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    color: black;
+    padding: 10px 0;
+    z-index: 100;
+    transition: all 0.5s;
+  }
+  .slide {
+    left: 0%;
+    transition: all 0.5s;
+  }
+  .nav2-text {
+    margin: 10px 0;
+    margin-left: 20px;
+    color: black;
+  }
+}
