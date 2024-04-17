@@ -36,8 +36,8 @@ const Hero = () => {
         <div className="hero-container">
           <div className="hero-head">I'm a Mern Stack Developer</div>
           <div className="hero-body">
-            A passionate frontend developer on a mission to craft extraordinary
-            digital experiences that leave users spellbound
+            A passionate Mern-Stack developer on a mission to craft
+            extraordinary digital experiences that leave users spellbound.
           </div>
         </div>
         <div className="Down-btn">
@@ -192,20 +192,84 @@ const Hero = () => {
                 alt=""
               />
             </div>
-            <div className="project-name">Project 1</div>
+            <div className="project-name">Puerim</div>
             <div className="project-desc">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptatibus, consequuntur.
+              Your partner in digital success. Puerim's responsive website
+              showcases a comprehensive suite of social media agency services,
+              designed to elevate brands and maximize online presence. From
+              dynamic web development to strategic social media management,
+              Puerim offers tailored solutions to meet your digital marketing
+              needs.
             </div>
 
             <div className="link-btn">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/harshj2109/puerim-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button className="project-btn">Visit</button>
               </a>
             </div>
           </div>
 
           <div className="project-box">
+            <div className="project-img">
+              <img
+                className="project-icon"
+                src="./Images/Projects/plogo.png"
+                alt=""
+              />
+            </div>
+            <div className="project-name">HealthGate</div>
+            <div className="project-desc">
+              Transforming healthcare accessibility through innovative
+              technology. Utilizing ReactJS, HealthGate empowers users to
+              effortlessly locate nearby hospitals, pharmacies, and pathology
+              labs. With its intuitive interface and smooth navigation, finding
+              the closest healthcare facility has never been easier.
+            </div>
+
+            <div className="link-btn">
+              <a
+                href="https://github.com/harshj2109/Health-gate"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="project-btn">Visit</button>
+              </a>
+            </div>
+          </div>
+
+          <div className="project-box">
+            <div className="project-img">
+              <img
+                className="project-icon"
+                src="./Images/Projects/plogo.png"
+                alt=""
+              />
+            </div>
+            <div className="project-name">Weather Web</div>
+            <div className="project-desc">
+              Bringing weather forecasts to life with a dynamic, responsive
+              application. Powered by HTML, CSS, and JavaScript, this app
+              seamlessly integrates with weather APIs to deliver real-time
+              forecasts and location-based data. With its user-friendly
+              interface and intuitive design, staying updated on the latest
+              weather conditions has never been easier.
+            </div>
+
+            <div className="link-btn">
+              <a
+                href="https://github.com/harshj2109/Weather-Web"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="project-btn">Visit</button>
+              </a>
+            </div>
+          </div>
+          {/* <div className="project-box">
             <div className="project-img">
               <img
                 className="project-icon"
@@ -224,48 +288,7 @@ const Hero = () => {
                 <button className="project-btn">Visit</button>
               </a>
             </div>
-          </div>
-
-          <div className="project-box">
-            <div className="project-img">
-              <img
-                className="project-icon"
-                src="./Images/Projects/plogo.png"
-                alt=""
-              />
-            </div>
-            <div className="project-name">Project 1</div>
-            <div className="project-desc">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptatibus, consequuntur.
-            </div>
-
-            <div className="link-btn">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <button className="project-btn">Visit</button>
-              </a>
-            </div>
-          </div>
-          <div className="project-box">
-            <div className="project-img">
-              <img
-                className="project-icon"
-                src="./Images/Projects/plogo.png"
-                alt=""
-              />
-            </div>
-            <div className="project-name">Project 1</div>
-            <div className="project-desc">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptatibus, consequuntur.
-            </div>
-
-            <div className="link-btn">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <button className="project-btn">Visit</button>
-              </a>
-            </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
