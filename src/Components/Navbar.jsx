@@ -36,7 +36,12 @@ const Navbar = () => {
         <a className="nav2-text" href="#contact" onClick={click}>
           Contact
         </a>
-        <a className="nav2-text" onClick={click}>
+        <a
+          href="https://drive.google.com/file/d/171GubQ6FyC4UkbcPY-Jzl0UIshgzwDkO/view?usp=drive_link"
+          target="_blank"
+          className="nav2-text"
+          onClick={click}
+        >
           Resume
         </a>
         <a

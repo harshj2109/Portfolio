@@ -12,7 +12,7 @@
   position: relative;
 }
 
-.nav2 {
+.main-navbar .nav2 {
   display: flex;
   align-items: center;
   /* justify-content: center; */
@@ -20,6 +20,11 @@
 }
 .nav2-text {
   margin-left: 20px;
+  transition: all 0.5s;
+}
+
+.nav2-text:hover {
+  letter-spacing: 2px;
 }
 .ham-nav {
   display: none;

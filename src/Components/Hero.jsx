@@ -269,7 +269,7 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          {/* <div className="project-box">
+          <div className="project-box">
             <div className="project-img">
               <img
                 className="project-icon"
@@ -277,10 +277,13 @@ const Hero = () => {
                 alt=""
               />
             </div>
-            <div className="project-name">Project 1</div>
+            <div className="project-name">Daedalus</div>
             <div className="project-desc">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptatibus, consequuntur.
+              Web Application built on MERN Stack(without the R), and Mapbox API
+              to display information & directions from university campus to a
+              set point marker on a map. Also includes sending customized
+              coordinates to the server by dragging the marker on the rendered
+              map.
             </div>
 
             <div className="link-btn">
@@ -288,7 +291,7 @@ const Hero = () => {
                 <button className="project-btn">Visit</button>
               </a>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
 
@@ -331,8 +334,11 @@ const Hero = () => {
       </div>
 
       <div className="footer">
-        <a href="">
-          <button className="resume-btn">my resume</button>
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/171GubQ6FyC4UkbcPY-Jzl0UIshgzwDkO/view?usp=drive_link"
+        >
+          <button className="resume-btn">My Resume</button>
         </a>
         <a href="#">
           <button className="upbtn">

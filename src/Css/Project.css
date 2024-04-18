@@ -25,7 +25,7 @@ a {
 .project-box {
   gap: 20px;
   flex: 33%;
-  /* height: 250px; */
+  /* height: 100px; */
   margin: 20px 20px;
   background-color: rgb(228, 227, 227);
   text-align: center;
@@ -36,7 +36,11 @@ a {
   padding: 20px;
   color: black;
   border-radius: 10px;
+  /* transition: all 1s; */
 }
+/* .project-box:hover {
+  height: auto;
+} */
 .project-name {
   font-size: 22px;
 }
@@ -49,11 +53,19 @@ a {
 }
 .project-btn {
   padding: 10px 30px;
-  border-radius: 5px;
+  border-radius: 5px 10px;
   font-size: 20px;
   background-color: black;
   color: white;
   cursor: pointer;
+  border: 0;
+  outline: 0;
+  transition: all 0.5s;
+}
+
+.project-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 10px 20px black;
 }
 @media screen and (max-width: 425.7px) {
   .project-title {
