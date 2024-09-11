@@ -360,7 +360,7 @@ const Hero = () => {
       <div className="footer">
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/171GubQ6FyC4UkbcPY-Jzl0UIshgzwDkO/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1CfUHuatsfJEor4thr3X7O3maHEvBYenB/view?usp=sharing"
         >
           <button className="resume-btn">My Resume</button>
         </a>
