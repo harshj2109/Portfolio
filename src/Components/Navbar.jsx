@@ -20,23 +20,34 @@ const Navbar = () => {
   return (
     <div className="main-navbar">
       <div className="nav1">
-        <div className="nav1-text">Portfolio.</div>
+        <div data-aos="slide-down" 
+    
+    data-aos-duration="500" className="nav1-text">Portfolio.</div>
       </div>
-      <div className="ham-nav">
+      <div data-aos="slide-down" 
+    
+    data-aos-duration="700" className="ham-nav">
         {nav ? (
-          <HiOutlineBars3 className="hamburger" onClick={click} />
+          <HiOutlineBars3  className="hamburger" onClick={click} />
         ) : (
           <HiOutlineBars3BottomLeft className="hamburger" onClick={click} />
         )}
       </div>
-      <div className={clas}>
-        <a href="#project" className="nav2-text" onClick={click}>
+      <div 
+    className={clas}>
+        <a data-aos="slide-down" 
+    
+    data-aos-duration="500" href="#project" className="nav2-text" onClick={click}>
           Projects
         </a>
-        <a className="nav2-text" href="#contact" onClick={click}>
+        <a data-aos="slide-down" 
+    
+    data-aos-duration="650" className="nav2-text" href="#contact" onClick={click}>
           Contact
         </a>
-        <a
+        <a data-aos="slide-down" 
+    
+    data-aos-duration="800"
           href="https://drive.google.com/file/d/171GubQ6FyC4UkbcPY-Jzl0UIshgzwDkO/view?usp=drive_link"
           target="_blank"
           className="nav2-text"
@@ -44,7 +55,9 @@ const Navbar = () => {
         >
           Resume
         </a>
-        <a
+        <a data-aos="slide-down" 
+    
+    data-aos-duration="950"
           className="nav2-text"
           href="https://www.linkedin.com/in/jainharsh0907/"
           target="_blank"
@@ -52,7 +65,9 @@ const Navbar = () => {
         >
           <FaLinkedin />
         </a>
-        <a
+        <a data-aos="slide-down" 
+    
+    data-aos-duration="1050"
           href="https://github.com/harshj2109"
           target="_blank"
           className="nav2-text"

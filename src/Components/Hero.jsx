@@ -33,14 +33,16 @@ const Hero = () => {
     <div className="Top-conatiner">
       <div className="hero-main-conatiner">
         <Navbar />
-        <div className="hero-container">
-          <div className="hero-head">I'm a Mern Stack Developer</div>
-          <div className="hero-body">
+        <div data-aos="fade-in" 
+    
+    data-aos-duration="1500"  className="hero-container">
+          <div  className="hero-head">I'm a Mern Stack Developer</div>
+          <div  className="hero-body">
             A passionate Mern-Stack developer on a mission to craft
             extraordinary digital experiences that leave users spellbound.
           </div>
         </div>
-        <div className="Down-btn">
+        <div  className="Down-btn">
           <a className="arrow" href="#skills">
             <IoMdArrowDropdownCircle />
           </a>
@@ -48,11 +50,15 @@ const Hero = () => {
       </div>
 
       <div id="skills" className="skills-container">
-        <div className="skills-heading">Skills Stack</div>
+        <div data-aos="fade-up" 
+    
+    data-aos-duration="700" className="skills-heading">Skills Stack</div>
 
         <div className="Skills-desc">
-          <div className="skill-head" onClick={dropui}>
-            <div className="skill-head-txt">Ui/Ux</div>
+          <div data-aos="fade-right" 
+    
+    data-aos-duration="500" className="skill-head" onClick={dropui}>
+            <div  className="skill-head-txt">Ui/Ux</div>
             {ui ? (
               <IoIosArrowDropup className="dropdown" />
             ) : (
@@ -75,7 +81,9 @@ const Hero = () => {
           )}
         </div>
         <div className="Skills-desc">
-          <div className="skill-head" onClick={dropf}>
+          <div data-aos="fade-right" 
+    
+    data-aos-duration="600" className="skill-head" onClick={dropf}>
             <div className="skill-head-txt">Frontend Development</div>
             {front ? (
               <IoIosArrowDropup className="dropdown" />
@@ -123,7 +131,9 @@ const Hero = () => {
           )}
         </div>
         <div className="Skills-desc">
-          <div className="skill-head" onClick={dropback}>
+          <div data-aos="fade-right" 
+    
+    data-aos-duration="700" className="skill-head" onClick={dropback}>
             <div className="skill-head-txt">Backend Development</div>
             {backend ? (
               <IoIosArrowDropup className="dropdown" />
@@ -147,7 +157,9 @@ const Hero = () => {
           )}
         </div>
         <div className="Skills-desc">
-          <div className="skill-head" onClick={dropdatabase}>
+          <div data-aos="fade-right" 
+    
+    data-aos-duration="800" className="skill-head" onClick={dropdatabase}>
             <div className="skill-head-txt">Database</div>
             {database ? (
               <IoIosArrowDropup className="dropdown" />
@@ -181,10 +193,14 @@ const Hero = () => {
       </div>
 
       <div className="project-container" id="project">
-        <div className="project-title">Projects</div>
+        <div data-aos="fade-up" 
+    
+    data-aos-duration="700" className="project-title">Projects</div>
 
         <div className="projects">
-          <div className="project-box">
+          <div data-aos="flip-left" 
+    
+    data-aos-duration="1000"className="project-box">
             <div className="project-img">
               <img
                 className="project-icon"
@@ -213,7 +229,9 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="project-box">
+          <div data-aos="flip-right" 
+    
+    data-aos-duration="1000" className="project-box">
             <div className="project-img">
               <img
                 className="project-icon"
@@ -241,7 +259,9 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="project-box">
+          <div data-aos="flip-left" 
+    
+    data-aos-duration="1000" className="project-box">
             <div className="project-img">
               <img
                 className="project-icon"
@@ -269,7 +289,9 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="project-box">
+          <div data-aos="flip-right" 
+    
+    data-aos-duration="1000" className="project-box">
             <div className="project-img">
               <img
                 className="project-icon"
@@ -296,17 +318,19 @@ const Hero = () => {
       </div>
 
       <div className="contact-container" id="contact">
-        <div className="contact-heading">Contact Me</div>
+        <div data-aos="fade-up" 
+    
+    data-aos-duration="700"className="contact-heading">Contact Me</div>
 
         <div className="contact-box">
           <div className="contact-info">
-            {/* <div className="contact-head">Get in touch with me</div> */}
+            
             <div className="contact-btns-box">
               <a
                 href="https://www.linkedin.com/in/jainharsh0907/"
                 target="_blank"
               >
-                <button className="contact-btn linkedinbtn">
+                <button data-aos="fade-left" data-aos-duration="1000" className="contact-btn linkedinbtn">
                   {" "}
                   <FaLinkedin />
                   Contact me on linkedin
@@ -314,20 +338,20 @@ const Hero = () => {
               </a>
 
               <a href="mailto:jainharsh2109@gmail.com" target="_blank">
-                <button className="contact-btn gmailbtn">
+                <button data-aos="fade-left" data-aos-duration="1500" className="contact-btn gmailbtn">
                   <BiLogoGmail />
                   Mail me
                 </button>
               </a>
               <a href="https://www.instagram.com/harshh._j/" target="_blank">
-                <button className="contact-btn instabtn">
+                <button data-aos="fade-left" data-aos-duration="1200" className="contact-btn instabtn">
                   <FaInstagram />
                   Contact me on Instagram
                 </button>
               </a>
             </div>
           </div>
-          <div className="contact-img">
+          <div data-aos="fade-right" data-aos-duration="1000" className="contact-img">
             <img src="./Images/Contact/usericon.png" alt="" />
           </div>
         </div>
