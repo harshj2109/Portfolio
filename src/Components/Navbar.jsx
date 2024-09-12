@@ -48,7 +48,7 @@ const Navbar = () => {
         <a data-aos="slide-down" 
     
     data-aos-duration="800"
-          href="https://drive.google.com/file/d/171GubQ6FyC4UkbcPY-Jzl0UIshgzwDkO/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1CfUHuatsfJEor4thr3X7O3maHEvBYenB/view"
           target="_blank"
           className="nav2-text"
           onClick={click}
