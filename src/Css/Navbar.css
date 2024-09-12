@@ -25,6 +25,7 @@
 
 .nav2-text:hover {
   letter-spacing: 2px;
+  transition:all 1s;
 }
 .ham-nav {
   display: none;
